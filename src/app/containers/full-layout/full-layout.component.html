@@ -1,0 +1,35 @@
+<header class="app-header navbar navHeader">
+  <div class="float-right picBorder">
+    &nbsp;
+    <img class="imgSize" src="assets/img/head.png" >
+  </div>
+  <div >
+    <ul class="nav navbar-nav d-md-down-none ">
+      <li class="nav-item px-3 ">
+        <a class="nav-link navText" routerLinkActive="active" [routerLink]="['/home']" href="#" >Home</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link navText" routerLinkActive="active" [routerLink]="['/herbList']" href="#">HerbList</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link navText" routerLinkActive="active" [routerLink]="['/shop']" href="#" >Shops</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link navText" routerLinkActive="active" [routerLink]="['/health']" href="#">Health</a>
+      </li>
+      <li class="nav-item px-3">
+        <a class="nav-link navText" routerLinkActive="active" [routerLink]="['/support']" href="#">Support</a>
+      </li>
+    </ul>
+  </div>
+
+</header>
+<div class="app-body">
+  <!-- Main content -->
+  <main class="">
+    <!-- Breadcrumb -->
+<router-outlet></router-outlet>
+
+  </main>
+</div>
+

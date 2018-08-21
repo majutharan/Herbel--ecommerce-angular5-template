@@ -1,0 +1,19 @@
+.navText {
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.navHeader {
+  background-color: #85bb5c;
+}
+
+.imgSize {
+  height: 48px;
+  width: 300px;
+}
+.picBorder {
+  background-color: #558b2f;
+  border-radius: 10px;
+  width: 320px;
+
+}
