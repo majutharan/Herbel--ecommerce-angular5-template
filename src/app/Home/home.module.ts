@@ -8,6 +8,7 @@ import {HomeComponent} from './home.component';
 import {HomeRouting} from './home.routing';
 
 
+
 @NgModule({
   imports: [
 
@@ -18,7 +19,8 @@ import {HomeRouting} from './home.routing';
     AlertModule.forRoot(),
     BsDropdownModule.forRoot(),
     ReactiveFormsModule,
-    HomeRouting
+    HomeRouting,
+
 
   ],
   declarations: [

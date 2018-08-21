@@ -1,0 +1,10 @@
+.homeImg{
+  height: 500px;
+  width: 500px;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}

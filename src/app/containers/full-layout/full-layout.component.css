@@ -13,7 +13,11 @@
 }
 .picBorder {
   background-color: #558b2f;
-  border-radius: 10px;
   width: 320px;
+  height: 54px;
 
+}
+
+.commonBackground {
+  background-color: #e1ffb1;
 }
