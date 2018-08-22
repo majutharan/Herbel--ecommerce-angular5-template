@@ -21,3 +21,13 @@
 .commonBackground {
   background-color: #e1ffb1;
 }
+
+.footerStyle {
+  height: 40px;
+  horiz-align: center;
+  background-color: #85bb5c;
+}
+
+.footerText {
+  margin-top: 10px;
+}

@@ -6,8 +6,7 @@ import {CollapseModule} from 'ngx-bootstrap/collapse';
 import {CommonModule} from '@angular/common';
 import {HomeComponent} from './home.component';
 import {HomeRouting} from './home.routing';
-
-
+import { CarouselModule } from 'ngx-bootstrap/carousel';
 
 @NgModule({
   imports: [
@@ -20,7 +19,7 @@ import {HomeRouting} from './home.routing';
     BsDropdownModule.forRoot(),
     ReactiveFormsModule,
     HomeRouting,
-
+    CarouselModule.forRoot()
 
   ],
   declarations: [
